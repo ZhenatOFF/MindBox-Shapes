@@ -3,11 +3,10 @@ Shapes
     <input type="text">
 ```
 
-```css
-    body {
-        margin: 0;
-        padding: 0;
-    }
+```
+CREATE TABLE Products(id INT PRIMARY KEY, name VARCHAR(255) NOT NULL);
+CREATE TABLE Category(id INT PRIMARY KEY, name VARCHAR(255) NOT NULL);
+CREATE TABLE ProdCat(products_id INT NOT NULL, category_id INT NOT NULL);
 ```
 
 ```php
