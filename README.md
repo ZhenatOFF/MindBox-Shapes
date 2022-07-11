@@ -13,6 +13,7 @@ Shapes
 ```php
     <?php phpinfo();?>
 ```
+```
 ---csharp
 using MarkdownSharp;
 using MarkdownSharp.Extensions.Mal;
@@ -26,3 +27,4 @@ mark.AddExtension(new Profile());
 
 mark.Transform(text);
 ---csharp
+```
