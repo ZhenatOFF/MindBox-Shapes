@@ -1,4 +1,18 @@
 Shapes
+```html
+    <input type="text">
+```
+
+```css
+    body {
+        margin: 0;
+        padding: 0;
+    }
+```
+
+```php
+    <?php phpinfo();?>
+```
 ---csharp
 using MarkdownSharp;
 using MarkdownSharp.Extensions.Mal;
