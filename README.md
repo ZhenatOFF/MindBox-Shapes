@@ -42,7 +42,7 @@ VALUES
 	(1,3),
 	(2,1),
 	(2,3)
-
+```
 SQL запрос для выбора всех пар «Имя продукта – Имя категории»:
 ```
 SELECT P.Product, C.Category FROM Products AS P
